@@ -7,14 +7,14 @@ with open("requirements.txt", "r") as f:
     reqs = [line.strip() for line in f if ('selenium' not in line and 'webdriver' not in line)]
 
 setup(
-    name="llama-researcher",
+    name="researcher",
     version="0.4.3",
-    description="Llama Researcher is an autonomous agent designed for comprehensive online research on a variety of tasks.",
+    description="Researcher is an autonomous agent designed for comprehensive online research on a variety of tasks.",
     package_dir={'': 'llama_researcher'},
     packages=find_packages(),
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/saeid976/llama-researcher-surf.git",
+    url="https://github.com/saeid976/researcher-surf.git",
     author="saeid",
     author_email="saeid2015dr@gmail.com",
     license="MIT",
