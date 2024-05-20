@@ -23,6 +23,7 @@ newspaper3k
 langchain_community
 SQLAlchemy
 langchain-openai
+langchain-groq
 mistune
 python-docx
 htmldocx
